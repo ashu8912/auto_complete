@@ -21,7 +21,7 @@ editor.on("keydown", function(cm, event) {
 });
 
 CodeMirror.hint.javascript = function(editor) {
-  var list = ["Hello", "ashu", "p5.js", "p5.js is awesome"];
+  var list = ["Hello", "ashu", "p5.js", "p5.js is awesome", "setup", "draw"];
   var cursor = editor.getCursor();
   var currentLine = editor.getLine(cursor.line);
   var start = cursor.ch;
